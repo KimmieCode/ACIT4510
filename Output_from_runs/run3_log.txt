@@ -1,0 +1,122 @@
+"C:\School\Master\ACIT4520 - Statistics\ACIT4520_project\.venv\Scripts\python.exe" "C:\School\Master\ACIT4520 - Statistics\ACIT4520_project\test.py" 
+2025-02-19 07:24:43.542156: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-02-19 07:24:45.325646: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+YF.download() has changed argument auto_adjust default to True
+[*********************100%***********************]  5 of 5 completed
+[*********************100%***********************]  5 of 5 completed
+SVM Accuracy: 0.57
+Random Forest RMSE: 0.0228
+2025-02-19 07:24:54.195570: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+C:\School\Master\ACIT4520 - Statistics\ACIT4520_project\.venv\Lib\site-packages\keras\src\layers\rnn\rnn.py:200: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+Epoch 1/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 7s 14ms/step - loss: 6.5232e-04
+Epoch 2/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 13ms/step - loss: 4.0971e-04
+Epoch 3/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 13ms/step - loss: 3.5683e-04
+Epoch 4/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 14ms/step - loss: 4.1272e-04
+Epoch 5/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 4s 14ms/step - loss: 4.1882e-04
+Epoch 6/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 13ms/step - loss: 3.6956e-04
+Epoch 7/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 14ms/step - loss: 4.0536e-04
+Epoch 8/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 5s 12ms/step - loss: 3.7975e-04
+Epoch 9/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 4s 14ms/step - loss: 3.6873e-04
+Epoch 10/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 13ms/step - loss: 3.5783e-04
+Epoch 11/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 13ms/step - loss: 3.4579e-04
+Epoch 12/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 14ms/step - loss: 4.3361e-04
+Epoch 13/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 13ms/step - loss: 4.0061e-04
+Epoch 14/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 13ms/step - loss: 3.9994e-04
+Epoch 15/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 14ms/step - loss: 3.5707e-04
+Epoch 16/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 4s 14ms/step - loss: 3.6157e-04
+Epoch 17/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 13ms/step - loss: 3.3211e-04
+Epoch 18/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 14ms/step - loss: 3.7563e-04
+Epoch 19/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 13ms/step - loss: 3.5545e-04
+Epoch 20/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 13ms/step - loss: 3.5640e-04
+Epoch 21/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 4s 14ms/step - loss: 3.7917e-04
+Epoch 22/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 13ms/step - loss: 3.4130e-04
+Epoch 23/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 4s 14ms/step - loss: 3.8341e-04
+Epoch 24/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 14ms/step - loss: 3.9759e-04
+Epoch 25/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 4s 14ms/step - loss: 3.6225e-04
+Epoch 26/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 13ms/step - loss: 3.5310e-04
+Epoch 27/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 13ms/step - loss: 3.7711e-04
+Epoch 28/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 13ms/step - loss: 3.9729e-04
+Epoch 29/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 13ms/step - loss: 3.8489e-04
+Epoch 30/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 13ms/step - loss: 3.6100e-04
+Epoch 31/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 14ms/step - loss: 3.7488e-04
+Epoch 32/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 4s 14ms/step - loss: 3.4929e-04
+Epoch 33/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 13ms/step - loss: 3.7419e-04
+Epoch 34/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 13ms/step - loss: 3.9127e-04
+Epoch 35/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 4s 15ms/step - loss: 3.6465e-04
+Epoch 36/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 13ms/step - loss: 3.7072e-04
+Epoch 37/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 14ms/step - loss: 3.5863e-04
+Epoch 38/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 4s 14ms/step - loss: 3.6805e-04
+Epoch 39/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 13ms/step - loss: 4.0635e-04
+Epoch 40/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 14ms/step - loss: 3.8276e-04
+Epoch 41/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 4s 14ms/step - loss: 3.7483e-04
+Epoch 42/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 14ms/step - loss: 4.1002e-04
+Epoch 43/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 14ms/step - loss: 3.6890e-04
+Epoch 44/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 4s 15ms/step - loss: 3.8580e-04
+Epoch 45/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 4s 14ms/step - loss: 3.4670e-04
+Epoch 46/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 3s 13ms/step - loss: 3.5310e-04
+Epoch 47/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 4s 15ms/step - loss: 3.4525e-04
+Epoch 48/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 4s 15ms/step - loss: 3.8773e-04
+Epoch 49/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 4s 15ms/step - loss: 3.2125e-04
+Epoch 50/50
+251/251 ━━━━━━━━━━━━━━━━━━━━ 4s 14ms/step - loss: 3.7448e-04
+8/8 ━━━━━━━━━━━━━━━━━━━━ 1s 73ms/step
+LSTM RMSE: 0.0225
+8/8 ━━━━━━━━━━━━━━━━━━━━ 0s 9ms/step 
+LSTM RMSE for 2024: 0.0149
+Random Forest RMSE for 2024: 0.0144
+
+Process finished with exit code 0
+
+
+

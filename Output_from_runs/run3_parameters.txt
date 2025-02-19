@@ -1,0 +1,16 @@
+# changes for the LSTM model
+lstm_model = Sequential([
+    LSTM(200, activation='tanh', return_sequences=True, input_shape=(X_lstm.shape[1], 1)),
+    LSTM(200, activation='tanh', return_sequences=True),
+    LSTM(200, activation='tanh'),
+    Dense(1)
+])
+
+lstm_model.compile(optimizer='adam', loss='mse')
+lstm_model.fit(X_lstm, y_train.mean(axis=1), epochs=50, batch_size=4, verbose=1)
+
+
+
+# changes for the random forest
+rf_model = RandomForestRegressor(n_estimators=500, max_depth=20, min_samples_split=2, random_state=42)
+rf_model.fit(X_train_scaled, y_train.mean(axis=1))

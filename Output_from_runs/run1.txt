@@ -1,0 +1,60 @@
+"C:\School\Master\ACIT4520 - Statistics\ACIT4520_project\.venv\Scripts\python.exe" "C:\School\Master\ACIT4520 - Statistics\ACIT4520_project\test.py" 
+2025-02-19 10:11:29.532692: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-02-19 10:11:30.891640: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+YF.download() has changed argument auto_adjust default to True
+[*********************100%***********************]  5 of 5 completed
+SVR RMSE: 0.0229
+Random Forest RMSE: 0.0227
+2025-02-19 10:11:36.521381: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+C:\School\Master\ACIT4520 - Statistics\ACIT4520_project\.venv\Lib\site-packages\keras\src\layers\rnn\rnn.py:200: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+Epoch 1/20
+126/126 ━━━━━━━━━━━━━━━━━━━━ 4s 7ms/step - loss: 6.1745e-04
+Epoch 2/20
+126/126 ━━━━━━━━━━━━━━━━━━━━ 1s 7ms/step - loss: 4.8668e-04
+Epoch 3/20
+126/126 ━━━━━━━━━━━━━━━━━━━━ 1s 7ms/step - loss: 3.5489e-04
+Epoch 4/20
+126/126 ━━━━━━━━━━━━━━━━━━━━ 1s 7ms/step - loss: 4.3259e-04
+Epoch 5/20
+126/126 ━━━━━━━━━━━━━━━━━━━━ 1s 7ms/step - loss: 3.7088e-04
+Epoch 6/20
+126/126 ━━━━━━━━━━━━━━━━━━━━ 1s 8ms/step - loss: 4.2081e-04
+Epoch 7/20
+126/126 ━━━━━━━━━━━━━━━━━━━━ 1s 7ms/step - loss: 3.7560e-04
+Epoch 8/20
+126/126 ━━━━━━━━━━━━━━━━━━━━ 1s 7ms/step - loss: 3.6710e-04
+Epoch 9/20
+126/126 ━━━━━━━━━━━━━━━━━━━━ 1s 7ms/step - loss: 4.0397e-04
+Epoch 10/20
+126/126 ━━━━━━━━━━━━━━━━━━━━ 1s 7ms/step - loss: 3.6025e-04
+Epoch 11/20
+126/126 ━━━━━━━━━━━━━━━━━━━━ 1s 8ms/step - loss: 3.6112e-04
+Epoch 12/20
+126/126 ━━━━━━━━━━━━━━━━━━━━ 1s 7ms/step - loss: 3.3658e-04
+Epoch 13/20
+126/126 ━━━━━━━━━━━━━━━━━━━━ 1s 7ms/step - loss: 3.8309e-04
+Epoch 14/20
+126/126 ━━━━━━━━━━━━━━━━━━━━ 1s 7ms/step - loss: 3.8095e-04
+Epoch 15/20
+126/126 ━━━━━━━━━━━━━━━━━━━━ 1s 8ms/step - loss: 3.8571e-04
+Epoch 16/20
+126/126 ━━━━━━━━━━━━━━━━━━━━ 1s 10ms/step - loss: 3.6512e-04
+Epoch 17/20
+126/126 ━━━━━━━━━━━━━━━━━━━━ 1s 9ms/step - loss: 3.8393e-04
+Epoch 18/20
+126/126 ━━━━━━━━━━━━━━━━━━━━ 1s 8ms/step - loss: 3.4695e-04
+Epoch 19/20
+126/126 ━━━━━━━━━━━━━━━━━━━━ 1s 8ms/step - loss: 3.7515e-04
+Epoch 20/20
+126/126 ━━━━━━━━━━━━━━━━━━━━ 1s 7ms/step - loss: 3.5546e-04
+8/8 ━━━━━━━━━━━━━━━━━━━━ 1s 60ms/step
+LSTM RMSE: 0.0234
+[*********************100%***********************]  5 of 5 completed
+SVR RMSE for 2024: 0.0151
+Random Forest RMSE for 2024: 0.0138
+8/8 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step 
+LSTM RMSE for 2024: 0.0154
+
+Process finished with exit code 0
